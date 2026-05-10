@@ -7,7 +7,7 @@ from aiogram import Bot, Dispatcher
 from aiogram.types import Message, FSInputFile
 from aiogram.filters import CommandStart
 
-TOKEN = os.getenv ("8325957768:AAFRRCd5GyVlZJ84b1jN35jKyzbciul5QXE")
+TOKEN = "8325957768:AAFRRCd5GyVlZJ84b1jN35jKyzbciul5QXE"
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
